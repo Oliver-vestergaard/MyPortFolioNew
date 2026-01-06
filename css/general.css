@@ -187,19 +187,21 @@ footer {
 
 .color1 {
   border-radius: 50%;
-  background-color: #737373;
+  background-color: #c4c4c4;
+
   height: 40px;
   width: 40px;
 }
 .color2 {
   border-radius: 50%;
-  background-color: #595959;
+  background-color: #737373;
+
   height: 40px;
   width: 40px;
 }
 .color3 {
   border-radius: 50%;
-  background-color: #404040;
+  background-color: #595959;
   height: 40px;
   width: 40px;
 }
@@ -234,8 +236,8 @@ footer {
 }
 
 .Cirkel_logo {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   background-color: transparent;
   border: 2px solid white;

@@ -153,6 +153,10 @@
   text-align: center;
 }
 
+.Footer_Headline {
+  font-size: 20px;
+}
+
 /********* VIDEO *********/
 
 .Meta_video {
@@ -189,6 +193,10 @@
   }
 
   /************ TEKST ***********/
+
+  .Footer_Headline {
+    font-size: 32px;
+  }
 
   .project_h2 {
     color: #e48300;
