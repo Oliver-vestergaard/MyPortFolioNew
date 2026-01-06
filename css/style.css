@@ -110,7 +110,6 @@
 }
 
 .infobox_h2 {
-  color: #fff;
   font-size: 20px;
 }
 
@@ -195,7 +194,7 @@
   /************ TEKST ***********/
 
   .Footer_Headline {
-    font-size: 32px;
+    font-size: 15px;
   }
 
   .project_h2 {
