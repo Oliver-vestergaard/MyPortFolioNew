@@ -1,6 +1,6 @@
 document.querySelector(".Forside_svg").addEventListener("mouseover", hideGitter);
 function hideGitter() {
-  console.log("der scrolles");
+  console.log("der sker noget");
   document.querySelector("#Gitter").classList.add("slowHide");
 }
 

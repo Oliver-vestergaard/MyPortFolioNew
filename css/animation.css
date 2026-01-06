@@ -12,10 +12,11 @@ html::before {
   block-size: 4px;
   background-color: #e48300;
   opacity: 0.6;
+  z-index: 1000;
 
   animation: slideprogress linear;
   transform-origin: 0;
-  animation-timeline: scroll();
+  animation-timeline: scroll(); /***** SIGER FEJL I VALIDATOR, MEN LÆRT I KLASSEN UNDER TEMA ANIMATIONER ****/
 }
 
 /********** FORSIDE ANIMATION *********/
@@ -34,7 +35,7 @@ body.eye-zoom {
   }
 }
 
-/*********** GRID ************/
+/*********** GITTER ************/
 
 .slowHide {
   animation: slowHide 4s ease both;
@@ -46,19 +47,6 @@ body.eye-zoom {
   }
   100% {
     opacity: 0%;
-  }
-}
-
-.toRight {
-  animation: toRight 2s linear forwards;
-}
-
-@keyframes toRight {
-  0% {
-    transform: translatex(0);
-  }
-  100% {
-    transform: translatex(200vw);
   }
 }
 
@@ -86,6 +74,21 @@ body.eye-zoom {
 
 .tema_imgs {
   animation: SlideIn ease-out both;
-  animation-timeline: view();
-  animation-range: 0% 40%;
+  animation-timeline: view(); /***** SIGER FEJL I VALIDATOR, MEN LÆRT I KLASSEN UNDER TEMA ANIMATIONER ****/
+  animation-range: 0% 40%; /***** SIGER FEJL I VALIDATOR, MEN LÆRT I KLASSEN UNDER TEMA ANIMATIONER ****/
+}
+
+/******** LOGO **********/
+.changeColor {
+  animation: ChangeColor linear;
+  animation-timeline: scroll();
+}
+
+@keyframes ChangeColor {
+  from {
+    border: 2px solid white;
+  }
+  to {
+    border: 2px solid #e48300;
+  }
 }

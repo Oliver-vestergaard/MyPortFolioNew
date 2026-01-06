@@ -19,10 +19,10 @@
 }
 
 .tema_imgs {
-  max-width: 300px; /* stopper på store skærme */
+  max-width: 300px;
   height: auto;
   display: block;
-  margin: 0 auto; /* centrerer billeder */
+  margin: 0 auto;
   margin-bottom: 3rem;
 }
 
@@ -75,10 +75,10 @@
   background-color: transparent;
   color: #fff;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 30px;
   box-shadow: 0 0 40px 10px #e48300;
   width: fit-content;
-  padding: 0.5rem;
+  padding: 1rem;
   text-decoration: none;
 
   align-items: center;
@@ -162,10 +162,9 @@
   z-index: -10;
 }
 
-/************** Baggrundsbillede **************/
-
 /* desktop */
 @media (min-width: 801px) {
+  /************** Baggrundsbillede **************/
   body {
     background-attachment: fixed;
   }
@@ -232,8 +231,8 @@
   }
 
   .tema_imgs {
-    width: auto; /* Brug billedets naturlige bredde */
-    max-width: none; /* Fjern begrænsning */
+    width: auto;
+    max-width: none;
     height: auto;
     margin-bottom: 0;
   }
@@ -268,58 +267,5 @@
     background: transparent;
 
     box-shadow: 0 -1px 0 1px #ff9800;
-  }
-
-  /*********** HOVERS ***********&
-
-
-
-  /*********** GRIDS *************/
-  /* ABOUT GRID*/
-
-  /*
-  .container_right {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: end;
-  }
-
-  .container_left {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: end;
-  }
-
-  .container_left .tema_imgs {
-    grid-column: 1;
-  }
-
-  .container_left .left_content {
-    grid-column: 2;
-  }
-
-/**
-
-
-
-
-
-  /*
-  .tema_img_text_container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 2fr;
-  }
-  .tema_imgs {
-    grid-column: 2/3;
-    grid-row: 1/4;
-  }
-}
-
-/* mobil */
-  @media (max-width: 800px) {
-    body {
-      background-attachment: scroll;
-    }
   }
 }
